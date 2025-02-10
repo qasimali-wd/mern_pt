@@ -1,0 +1,75 @@
+.hi{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: chocolate;
+}
+
+.parent-section{
+  font-family: 'Courier New', Courier, monospace;
+}
+  .static {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .relative {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-color: lightcoral;
+    padding: 20px;
+  }
+
+  .container {
+    position: relative;
+    height: 300px;
+    background-color: lightgray;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  .fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightyellow;
+    padding: 20px;
+  }
+
+  .sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    padding: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  .box1, .box2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: white;
+    padding: 20px;
+  }
+
+  .box1 {
+    background-color: rgba(0, 0, 255, 0.7);
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+
+  .box2 {
+    background-color: rgba(255, 0, 0, 0.7);
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+  }
